@@ -43,6 +43,37 @@ Just select default settings.
 ![idf_install_step10](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/idf_install_step10.png)
 Patiently wait for the installation to be compl
 
-### 4、Check if the installation was successful
+### 4、Check if the installation was successful### 4、Check if the installation was successful
+If ESP-IDF 5.3 is installed on the computer, PowerShell can directly open the terminal.                  
+
+![powershell_step1](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/powershell_step1.png)
+![powershell_step2](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/powershell_step2.png)
+When you see "idf.py build", it means the installation is successful and you can proceed to the next steps.
+
+### 5、Set environment variables in the command window
+#### 5.1、Open ESP-IDF PowerShell
+
+![powershell_step1](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/powershell_step1.png)
+
+#### 5.2、Update and download ESP-IDF tool.
+Enter the Esp-idf folder and update the ESP-IDF tools for the Windows environment.
+powershell:
+cd C:\Espressif\frameworks\esp-idf-v5.3 (Fill in your own ESP-IDF storage path according to the actual situation).
+.\install.bat (Update and download ESP-IDF tool)
+![install_step1](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/install_step1.png)
+![install_step2](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/install_step2.png)
+
+Update finish.
+
+#### 5.3、Set up the ESP-IDF environment.
+Then, directly set the environment in the original path.
+powershell:
+.\export.bat
+![export_step1](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/export_step1.png)
+![export_step2](https://raw.githubusercontent.com/SabahEmperor/OpenAI_Intelligent_Agent/main/export_step2.png)
+
+Set up finish.
+
+
 
 
