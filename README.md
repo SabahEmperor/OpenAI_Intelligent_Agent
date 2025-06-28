@@ -74,6 +74,7 @@ powershell:
 
 Set up finish.
 
+#### 5.4、Has the test environment been set up successfully
 
 
 
